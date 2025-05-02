@@ -1,1 +1,185 @@
-[{"customer":{"name":"Lendyr","email":"omar.villasenor@tps.ai","street":"Isla Galapagos 2227","postal-code":"44950","city":"GDL"},"items":[{"id":"m1","name":"Mac & Cheese","price":"8.99","description":"Creamy cheddar cheese mixed with perfectly cooked macaroni, topped with crispy breadcrumbs. A classic comfort food.","image":"images/mac-and-cheese.jpg","quantity":1},{"id":"m2","name":"Margherita Pizza","price":"12.99","description":"A classic pizza with fresh mozzarella, tomatoes, and basil on a thin and crispy crust.","image":"images/margherita-pizza.jpg","quantity":1}],"id":"38.61765482739909"},{"customer":{"name":"OMar","email":"omnar_15@hotmail.com","street":"Isla Galapagos 2227","postal-code":"44950","city":"GDL"},"items":[{"id":"m9","name":"Chicken Curry","price":"13.99","description":"Tender pieces of chicken simmered in a rich and aromatic curry sauce, served with basmati rice.","image":"images/chicken-curry.jpg","quantity":2},{"id":"m6","name":"Grilled Chicken Sandwich","price":"10.99","description":"Tender grilled chicken breast with avocado, bacon, lettuce, and honey mustard on a toasted bun.","image":"images/grilled-chicken-sandwich.jpg","quantity":3}],"id":"758.6983296817587"},{"customer":{"name":"Peter","email":"oevm.12021998@gmail.com","street":"Isla Galapagos 2227","postal-code":"44950","city":"ZPN"},"items":[{"id":"m9","name":"Chicken Curry","price":"13.99","description":"Tender pieces of chicken simmered in a rich and aromatic curry sauce, served with basmati rice.","image":"images/chicken-curry.jpg","quantity":2},{"id":"m6","name":"Grilled Chicken Sandwich","price":"10.99","description":"Tender grilled chicken breast with avocado, bacon, lettuce, and honey mustard on a toasted bun.","image":"images/grilled-chicken-sandwich.jpg","quantity":3}],"id":"258.40980280115167"},{"customer":{"name":"OMar","email":"omar.villasenor@tec-ps.com","street":"Isla Galapagos 2227","postal-code":"44950","city":"ZPN"},"items":[{"id":"m5","name":"Veggie Burger","price":"9.99","description":"A juicy veggie patty served on a whole grain bun with lettuce, tomato, and a tangy sauce.","image":"images/veggie-burger.jpg","quantity":1},{"id":"m6","name":"Grilled Chicken Sandwich","price":"10.99","description":"Tender grilled chicken breast with avocado, bacon, lettuce, and honey mustard on a toasted bun.","image":"images/grilled-chicken-sandwich.jpg","quantity":1}],"id":"297.46649238890166"},{"customer":{"name":"Lendyr","email":"omar.villasenor@tps.ai","street":"Isla Galapagos 2227","postal-code":"44950","city":"ZPN"},"items":[{"id":"m2","name":"Margherita Pizza","price":"12.99","description":"A classic pizza with fresh mozzarella, tomatoes, and basil on a thin and crispy crust.","image":"images/margherita-pizza.jpg","quantity":1},{"id":"m1","name":"Mac & Cheese","price":"8.99","description":"Creamy cheddar cheese mixed with perfectly cooked macaroni, topped with crispy breadcrumbs. A classic comfort food.","image":"images/mac-and-cheese.jpg","quantity":1}],"id":"525.6977717322153"},{"customer":{"name":"Carolina","email":"carogc10@hmgoa.coe","street":"Isla Perts","postal-code":"44924","city":"CULIACAN"},"items":[{"id":"m2","name":"Margherita Pizza","price":"12.99","description":"A classic pizza with fresh mozzarella, tomatoes, and basil on a thin and crispy crust.","image":"images/margherita-pizza.jpg","quantity":1},{"id":"m1","name":"Mac & Cheese","price":"8.99","description":"Creamy cheddar cheese mixed with perfectly cooked macaroni, topped with crispy breadcrumbs. A classic comfort food.","image":"images/mac-and-cheese.jpg","quantity":1},{"id":"m6","name":"Grilled Chicken Sandwich","price":"10.99","description":"Tender grilled chicken breast with avocado, bacon, lettuce, and honey mustard on a toasted bun.","image":"images/grilled-chicken-sandwich.jpg","quantity":1}],"id":"978.7571654839238"}]
+[
+    {
+        "customer": {
+            "name": "Lendyr",
+            "email": "omar.villasenor@tps.ai",
+            "street": "Isla Galapagos 2227",
+            "postal-code": "44950",
+            "city": "GDL"
+        },
+        "items": [
+            {
+                "id": "m1",
+                "name": "Mac & Cheese",
+                "price": "8.99",
+                "description": "Creamy cheddar cheese mixed with perfectly cooked macaroni, topped with crispy breadcrumbs. A classic comfort food.",
+                "image": "images/mac-and-cheese.jpg",
+                "quantity": 1
+            }, {
+                "id": "m2",
+                "name": "Margherita Pizza",
+                "price": "12.99",
+                "description": "A classic pizza with fresh mozzarella, tomatoes, and basil on a thin and crispy crust.",
+                "image": "images/margherita-pizza.jpg",
+                "quantity": 1
+            }
+        ],
+        "id": "38.61765482739909"
+    }, {
+        "customer": {
+            "name": "OMar",
+            "email": "omnar_15@hotmail.com",
+            "street": "Isla Galapagos 2227",
+            "postal-code": "44950",
+            "city": "GDL"
+        },
+        "items": [
+            {
+                "id": "m9",
+                "name": "Chicken Curry",
+                "price": "13.99",
+                "description": "Tender pieces of chicken simmered in a rich and aromatic curry sauce, served with basmati rice.",
+                "image": "images/chicken-curry.jpg",
+                "quantity": 2
+            }, {
+                "id": "m6",
+                "name": "Grilled Chicken Sandwich",
+                "price": "10.99",
+                "description": "Tender grilled chicken breast with avocado, bacon, lettuce, and honey mustard on a toasted bun.",
+                "image": "images/grilled-chicken-sandwich.jpg",
+                "quantity": 3
+            }
+        ],
+        "id": "758.6983296817587"
+    }, {
+        "customer": {
+            "name": "Peter",
+            "email": "oevm.12021998@gmail.com",
+            "street": "Isla Galapagos 2227",
+            "postal-code": "44950",
+            "city": "ZPN"
+        },
+        "items": [
+            {
+                "id": "m9",
+                "name": "Chicken Curry",
+                "price": "13.99",
+                "description": "Tender pieces of chicken simmered in a rich and aromatic curry sauce, served with basmati rice.",
+                "image": "images/chicken-curry.jpg",
+                "quantity": 2
+            }, {
+                "id": "m6",
+                "name": "Grilled Chicken Sandwich",
+                "price": "10.99",
+                "description": "Tender grilled chicken breast with avocado, bacon, lettuce, and honey mustard on a toasted bun.",
+                "image": "images/grilled-chicken-sandwich.jpg",
+                "quantity": 3
+            }
+        ],
+        "id": "258.40980280115167"
+    }, {
+        "customer": {
+            "name": "OMar",
+            "email": "omar.villasenor@tec-ps.com",
+            "street": "Isla Galapagos 2227",
+            "postal-code": "44950",
+            "city": "ZPN"
+        },
+        "items": [
+            {
+                "id": "m5",
+                "name": "Veggie Burger",
+                "price": "9.99",
+                "description": "A juicy veggie patty served on a whole grain bun with lettuce, tomato, and a tangy sauce.",
+                "image": "images/veggie-burger.jpg",
+                "quantity": 1
+            }, {
+                "id": "m6",
+                "name": "Grilled Chicken Sandwich",
+                "price": "10.99",
+                "description": "Tender grilled chicken breast with avocado, bacon, lettuce, and honey mustard on a toasted bun.",
+                "image": "images/grilled-chicken-sandwich.jpg",
+                "quantity": 1
+            }
+        ],
+        "id": "297.46649238890166"
+    }, {
+        "customer": {
+            "name": "Lendyr",
+            "email": "omar.villasenor@tps.ai",
+            "street": "Isla Galapagos 2227",
+            "postal-code": "44950",
+            "city": "ZPN"
+        },
+        "items": [
+            {
+                "id": "m2",
+                "name": "Margherita Pizza",
+                "price": "12.99",
+                "description": "A classic pizza with fresh mozzarella, tomatoes, and basil on a thin and crispy crust.",
+                "image": "images/margherita-pizza.jpg",
+                "quantity": 1
+            }, {
+                "id": "m1",
+                "name": "Mac & Cheese",
+                "price": "8.99",
+                "description": "Creamy cheddar cheese mixed with perfectly cooked macaroni, topped with crispy breadcrumbs. A classic comfort food.",
+                "image": "images/mac-and-cheese.jpg",
+                "quantity": 1
+            }
+        ],
+        "id": "525.6977717322153"
+    }, {
+        "customer": {
+            "name": "Carolina",
+            "email": "carogc10@hmgoa.coe",
+            "street": "Isla Perts",
+            "postal-code": "44924",
+            "city": "CULIACAN"
+        },
+        "items": [
+            {
+                "id": "m2",
+                "name": "Margherita Pizza",
+                "price": "12.99",
+                "description": "A classic pizza with fresh mozzarella, tomatoes, and basil on a thin and crispy crust.",
+                "image": "images/margherita-pizza.jpg",
+                "quantity": 1
+            }, {
+                "id": "m1",
+                "name": "Mac & Cheese",
+                "price": "8.99",
+                "description": "Creamy cheddar cheese mixed with perfectly cooked macaroni, topped with crispy breadcrumbs. A classic comfort food.",
+                "image": "images/mac-and-cheese.jpg",
+                "quantity": 1
+            }, {
+                "id": "m6",
+                "name": "Grilled Chicken Sandwich",
+                "price": "10.99",
+                "description": "Tender grilled chicken breast with avocado, bacon, lettuce, and honey mustard on a toasted bun.",
+                "image": "images/grilled-chicken-sandwich.jpg",
+                "quantity": 1
+            }
+        ],
+        "id": "978.7571654839238"
+    }, {
+        "customer": {
+            "name": "Petersen",
+            "email": "Luis@mfod.kf",
+            "street": "nvhjeqfbjw",
+            "postal-code": "njiwqfnw",
+            "city": "nfjfnweoif"
+        },
+        "items": [
+            {
+                "id": "m1",
+                "name": "Mac & Cheese",
+                "price": "8.99",
+                "description": "Creamy cheddar cheese mixed with perfectly cooked macaroni, topped with crispy breadcrumbs. A classic comfort food.",
+                "image": "images/mac-and-cheese.jpg",
+                "quantity": 7
+            }
+        ],
+        "id": "484.04489050150244"
+    }
+]
