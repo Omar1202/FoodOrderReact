@@ -1,0 +1,34 @@
+Podía haber agregado los items directamente usando la información, en lugar de pasar el ID y luego hacer la 
+consulta en el CartContext.
+
+Ya modifiqué el App.jsx, de forma que dentro de Meals se itere sobre cada Meal, en vez de agregarlos desde el 
+App.jsx
+
+Podía haber pasado mejor el objeto a Meal, en lugar de pasar cada parte por separado.
+
+Puse el export CartContext como default.
+
+No le puse al Cart(#) que agregara un valor por cada repetido, eso se arregla simplemente sumando los quantity.
+Ya lo agregué.
+
+Por alguna razón, el export default CartContext no funciona. Tengo que dejarlo como export simple.
+
+Podía haber agregar una sección en Modal para los botones de modal-functions, pero decidí no hacerlo.
+
+Podría poner el Modal Component dentro de Cart y de Order, para dejarlos por separado. Me parece bien igual como 
+lo tengo pero sí sería algo más limpio.
+
+Sería buena idea reemplazar todos los formatter que no sean con Intl para unificarlo todo en un utils/formatter.js
+
+El bro creó otro Context para los Modal, esto lo hizo para crear un state que identifique si estás en Cart o 
+en Checkout, y le pasa al dialog un prop open={} donde pregunta si el "state.estatus" está en Cart, siendo true 
+el indicador de apertura.
+
+Hubiera sido buena idea crear un CartItem para seguir la línea de Meals/Meal.
+
+Él creó un Input component, yo no lo consideré necesario pero CREO QUE DEBO ADAPTARME A ESA IDEA PARA PODERLOS 
+REPETIR.
+
+No usé un hook, debo recordar eso para las cargas.
+
+REVISAR LOS CUSTOM HOOKS, ya que resuelven los HTTP requests y ayudan con las cargas de red.

@@ -1,5 +1,5 @@
 import { useActionState, useContext, useState } from "react";
-import { CartContext } from "../store/CartContext";
+import { CartContext } from "../store/CartContext.jsx";
 
 
 async function sendOrderToServer(order) {

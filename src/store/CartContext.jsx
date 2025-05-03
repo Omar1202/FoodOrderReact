@@ -1,4 +1,4 @@
-import { act, createContext, useReducer } from "react";
+import { createContext, useReducer } from "react";
 
 export const CartContext = createContext({
     items: [],
@@ -111,3 +111,6 @@ export function CartContextProvider({ children }) {
 
     return <CartContext.Provider value={contextValue}>{children}</CartContext.Provider>;
 }
+
+// Esto no me funciona, no sé por qué
+// export default CartContext;

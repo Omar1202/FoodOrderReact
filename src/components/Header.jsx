@@ -28,9 +28,21 @@ export default function Header() {
         setCartModal(false);
         setOrderModal(true);
     }
+   
 
+    // useEffect( () => {
+    //     setCartItems( (prevState) => items != null ? items: 0 );
+    // }, [items])
+
+    //Agregado Post Codificación para añadir los duplicados
     useEffect( () => {
-        setCartItems( (prevState) => items != null ? items.length: 0 );
+        setCartItems( () => {
+            if(items.length === 0) {
+                return 0;
+            }
+            const totalItems = items.reduce( (accumulated, item) => accumulated + item.quantity, 0 )
+            return totalItems;
+        } );
     }, [items])
 
     return (
